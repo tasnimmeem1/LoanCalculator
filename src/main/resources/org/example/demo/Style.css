@@ -1,0 +1,71 @@
+.calculate-button {
+    -fx-background-color:
+            #1565c0,
+            linear-gradient(to bottom, #42a5f5, #1976d2);
+
+    -fx-background-insets:
+            0,
+            0 0 4 0;
+
+    -fx-background-radius: 9px;
+
+    -fx-text-fill: white;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+
+    -fx-padding: 8px 20px;
+
+    -fx-effect: dropshadow(
+            gaussian,
+            rgba(0, 0, 0, 0.40),
+            6,
+            0.2,
+            0,
+            3
+    );
+
+    -fx-cursor: hand;
+}
+
+.calculate-button:hover {
+    -fx-background-color:
+            #0d47a1,
+            linear-gradient(to bottom, #64b5f6, #1e88e5);
+
+    -fx-effect: dropshadow(
+            gaussian,
+            rgba(0, 0, 0, 0.50),
+            9,
+            0.25,
+            0,
+            4
+    );
+}
+
+.calculate-button:pressed {
+    -fx-background-color:
+            #0d47a1,
+            linear-gradient(to bottom, #1565c0, #1976d2);
+
+    -fx-background-insets:
+            0,
+            3 0 1 0;
+
+    -fx-translate-y: 2px;
+
+    -fx-effect: dropshadow(
+            gaussian,
+            rgba(0, 0, 0, 0.25),
+            3,
+            0.1,
+            0,
+            1
+    );
+}
+.calculator-pane {
+    -fx-background-color: #f8f8f8;
+    -fx-border-color: #dddddd;
+    -fx-border-width: 1px;
+    -fx-border-radius: 2px;
+    -fx-background-radius: 2px;
+}
